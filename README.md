@@ -33,11 +33,47 @@ A full-stack Dropbox-style file storage application built with Next.js and Fireb
 
 ## 📂 Folder Structure
 
-├── app/ # Next.js App Router pages & layouts
-├── components/ # Reusable UI components
-├── lib/ # Helper functions & data mappings
-├── public/ # Static assets
-├── store/ # Global state (Zustand)
-├── firebase.ts # Firebase initialization
-├── constant.ts # File-extension color map
-└── next.config.js # Next.js config
+-   `/`
+    -   `app/` &nbsp;&nbsp;&nbsp;&nbsp;# Next.js App Router pages & layouts
+    -   `components/` &nbsp;&nbsp;# Reusable UI components
+    -   `lib/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Helper functions & data mappings
+    -   `public/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Static assets
+    -   `store/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Global state (Zustand)
+    -   `firebase.ts` &nbsp;# Firebase initialization
+    -   `constant.ts` &nbsp;# File-extension color map
+    -   `next.config.js` &nbsp;# Next.js config
+
+## 🔧 Getting Started
+
+1. **Clone the repo**
+    ```bash
+    git clone https://github.com/Munzir2k/Dropbox-clone.git
+    cd Dropbox-clone
+    ```
+
+## Install Dependencies
+
+2. ```bash
+   npm install
+   ```
+
+## Configure environment
+
+3. ```bash NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+   CLERK_SECRET_KEY=your_secret_here
+   ```
+
+## Firebase
+
+4. ```bash
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
+   CLERK_SECRET_KEY=your_secret_here
+   ```
+
+## Run in development
+
+5. ```bash
+   npm run dev
+   ```
+
+Visit http://localhost:3000.
