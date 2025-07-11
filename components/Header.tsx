@@ -13,7 +13,7 @@ function Header() {
 			>
 				<div className='bg-[#0160FE] w-fit'>
 					<Image
-						src='https://www.shareicon.net/download/2016/07/13/606936_dropbox_2048x2048.png'
+						src='https://www.shareicon.net/data/512x512/2016/07/10/119920_dropbox_512x512.png'
 						alt='logo'
 						className='invert'
 						height={50}
