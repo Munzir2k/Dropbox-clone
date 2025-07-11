@@ -9,8 +9,8 @@ import { ThemeToggler } from "./ThemeToggler";
 function Header() {
     return (
         <header className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-2">
-                <div className="bg-[#0160FE] w-fit">
+            <Link href="/" className="flex items-center space-x-2 pl-5 pt-2">
+                <div className="bg-[#0160FE] w-[35px] rounded-md">
                     <Image
                         src="https://www.shareicon.net/data/512x512/2015/11/08/668675_box_512x512.png"
                         alt="logo"
@@ -22,7 +22,7 @@ function Header() {
                 <h1 className="font-bold text-xl">Dropbox</h1>
             </Link>
 
-            <div className="flex px-5 space-x-2 items-center">
+            <div className="flex px-5 space-x-2 items-center pt-2">
                 {/* Theme toggler */}
                 <ThemeToggler />
 
