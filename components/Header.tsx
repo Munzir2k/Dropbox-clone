@@ -12,7 +12,7 @@ function Header() {
             <Link href="/" className="flex items-center space-x-2">
                 <div className="bg-[#0160FE] w-fit">
                     <Image
-                        src="https://www.shareicon.net/data/512x512/2015/11/08/668675_box_512x512.png"
+                        src="https://www.shareicon.net/download/2016/07/13/606936_dropbox_2048x2048.png"
                         alt="logo"
                         className="invert"
                         height={50}
