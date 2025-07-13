@@ -76,3 +76,34 @@
         @apply bg-background text-foreground;
     }
 }
+
+.cl-internal-17ydaof {
+    background-color: rgb(209 213 219);
+}
+
+.dark .cl-internal-17ydaof {
+    background-color: rgb(17 24 39);
+}
+
+.cl-internal-1vbdq0x {
+    color: white;
+}
+.cl-internal-13zhnx0 {
+    color: white;
+}
+.cl-internal-7pl8hj {
+    color: white;
+}
+.cl-dividerLine {
+    background: white;
+}
+.cl-dividerText {
+    color: white;
+}
+
+.cl-internal-1xpzc82 {
+    color: white;
+}
+.cl-footerActionText {
+    color: white;
+}

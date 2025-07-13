@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import Header from "@/components/Header";
 
 export default function Home() {
     return (
         <main className="">
+            <Header />
             <div className="flex flex-col lg:flex-row items-center bg-[#1E1919] dark:bg-slate-800">
                 <div className="flex p-10 flex-col bg-[#2B2929] dark:bg-slate-800 text-white space-y-5">
                     <h1 className="text-5xl font-bold">
