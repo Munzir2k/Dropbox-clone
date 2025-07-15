@@ -33,15 +33,17 @@ A full-stack Dropbox-style file storage application built with Next.js and Fireb
 
 ## 📂 Folder Structure
 
--   `/`
-    -   `app/` &nbsp;&nbsp;&nbsp;&nbsp;# Next.js App Router pages & layouts
-    -   `components/` &nbsp;&nbsp;# Reusable UI components
-    -   `lib/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Helper functions & data mappings
-    -   `public/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Static assets
-    -   `store/` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Global state (Zustand)
-    -   `firebase.ts` &nbsp;# Firebase initialization
-    -   `constant.ts` &nbsp;# File-extension color map
-    -   `next.config.js` &nbsp;# Next.js config
+```php
+/
+├── app/           # Next.js App Router pages & layouts
+├── components/    # Reusable UI components
+├── lib/           # Helper functions & data mappings
+├── public/        # Static assets
+├── store/         # Global state (Zustand)
+├── firebase.ts    # Firebase initialization
+├── constant.ts    # File-extension color map
+└── next.config.js # Next.js config
+```
 
 ## 🔧 Getting Started
 
